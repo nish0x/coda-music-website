@@ -144,6 +144,7 @@ const screenshots = [
   { src: '/9.png', alt: 'Spotify Import' },
   { src: '/10.png', alt: 'Home' },
   { src: '/11.png', alt: 'Keyboard Shortcuts' },
+  { src: '/12.png', alt: 'Screenshot 12' },
 ]
 
 function Screenshots() {
