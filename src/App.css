@@ -204,37 +204,37 @@ ul { list-style: none; }
 .feature-card p { font-size: 14px; color: var(--muted); line-height: 1.6; }
 
 /* ═══════ SCREENSHOTS ═══════ */
-.screenshots { padding: 40px 0 100px; }
+.screenshots { padding: 40px 0 100px; overflow: hidden; }
 .screenshots .section-header { padding: 0 24px; }
-.screenshots .section-sub { font-size: 16px; color: var(--muted); margin-top: 12px; }
-.screenshots-grid {
-  max-width: 1140px;
-  margin: 48px auto 0;
-  padding: 0 24px;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px;
+.screenshots-banner {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+}
+.screenshots-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  animation: scroll-screenshots 30s linear infinite;
+}
+.screenshots-track:hover { animation-play-state: paused; }
+@keyframes scroll-screenshots {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.3333%); }
 }
 .screenshot-card {
-  border-radius: 18px;
-  padding: 10px;
-  background: linear-gradient(145deg, rgba(108, 99, 255, 0.10), rgba(0,0,0,0.02) 50%);
+  flex-shrink: 0;
+  width: 560px;
+  background: var(--card);
   border: 1px solid var(--border);
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s, border-color 0.35s;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
-.screenshot-card:hover {
-  transform: translateY(-6px);
-  border-color: rgba(108, 99, 255, 0.45);
-  box-shadow: 0 24px 70px rgba(108, 99, 255, 0.18);
-}
-.screenshot-card img {
-  width: 100%;
-  display: block;
-  border-radius: 11px;
-  transform: scale(1);
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.screenshot-card:hover img { transform: scale(1.03); }
+.screenshot-card:hover { transform: translateY(-4px); box-shadow: 0 8px 40px rgba(0,0,0,0.06); border-color: rgba(108, 99, 255, 0.3); }
+.screenshot-card img { width: 100%; display: block; }
 
 /* ═══════ DOWNLOAD ═══════ */
 .download-section { padding: 100px 24px; text-align: center; position: relative; }
@@ -327,7 +327,7 @@ ul { list-style: none; }
 
   /* screenshots */
   .screenshots { padding: 40px 0; }
-  .screenshots-grid { grid-template-columns: 1fr; gap: 20px; padding: 0 16px; }
+  .screenshot-card { width: 340px; }
 
   /* download */
   .download-section { padding: 40px 16px; }

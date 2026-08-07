@@ -153,21 +153,15 @@ function Screenshots() {
       <div className="section-header">
         <span className="section-label">Screenshots</span>
         <h2>See it in <span className="gradient-text">action</span></h2>
-        <p className="section-sub">A look inside Coda Music</p>
       </div>
-      <div className="screenshots-grid">
-        {screenshots.map((s, i) => (
-          <motion.div
-            key={s.src}
-            className="screenshot-card"
-            initial={{ opacity: 0, y: 32 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.55, delay: (i % 2) * 0.12, ease: 'easeOut' }}
-          >
-            <img src={s.src} alt={s.alt} loading="lazy" />
-          </motion.div>
-        ))}
+      <div className="screenshots-banner">
+        <div className="screenshots-track">
+          {[...screenshots, ...screenshots, ...screenshots].map((s, i) => (
+            <div key={i} className="screenshot-card">
+              <img src={s.src} alt={s.alt} loading="lazy" />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   )
