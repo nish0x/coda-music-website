@@ -138,6 +138,12 @@ const screenshots = [
   { src: '/3.png', alt: 'Charts' },
   { src: '/4.png', alt: 'Library' },
   { src: '/5.png', alt: 'Settings' },
+  { src: '/6.png', alt: 'Search' },
+  { src: '/7.png', alt: 'Queue' },
+  { src: '/8.png', alt: 'Equalizer' },
+  { src: '/9.png', alt: 'Spotify Import' },
+  { src: '/10.png', alt: 'Home' },
+  { src: '/11.png', alt: 'Keyboard Shortcuts' },
 ]
 
 function Screenshots() {
