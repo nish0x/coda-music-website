@@ -51,16 +51,16 @@ function Navbar() {
           <a href="#features">Features</a>
           <a href="#screenshots">Screenshots</a>
           <a href="#download">Download</a>
-          <a href="https://github.com/coder-nishanth/coda-music" target="_blank" rel="noreferrer">
+          <a href="https://github.com/0xnish/coda-music" target="_blank" rel="noreferrer">
             <Github size={16} />
           </a>
-          <a href="https://buymeacoffee.com/coder.nishanth" target="_blank" rel="noreferrer" className="header-cta">
+          <a href="https://buymeacoffee.com/0xnish" target="_blank" rel="noreferrer" className="header-cta">
             <Coffee size={14} />
             Support
           </a>
         </nav>
 
-        <a href="https://buymeacoffee.com/coder.nishanth" target="_blank" rel="noreferrer" className="header-cta-mobile">
+        <a href="https://buymeacoffee.com/0xnish" target="_blank" rel="noreferrer" className="header-cta-mobile">
           Support
         </a>
       </div>
@@ -92,7 +92,7 @@ function Hero() {
           <a href="#download" className="btn-primary">
             <Download size={18} /> Download for Windows
           </a>
-          <a href="https://github.com/coder-nishanth/coda-music" target="_blank" rel="noreferrer" className="btn-secondary">
+          <a href="https://github.com/0xnish/coda-music" target="_blank" rel="noreferrer" className="btn-secondary">
             <Github size={18} /> View Source
           </a>
         </div>
@@ -178,13 +178,13 @@ function DownloadSection() {
         <h2>Get <span className="gradient-text">Coda Music</span></h2>
         <p>Free and open source. No ads, no tracking.</p>
         <div className="download-cards">
-          <a href="./Coda Music v3.0.0 Setup.exe" className="download-card">
+          <a href="./Coda Music v3.1.0 Setup.exe" className="download-card">
             <div className="download-card-icon"><ArrowRight size={24} /></div>
-            <div><h3>Installer</h3><p>Coda Music v3.0.0 Setup.exe</p></div>
+            <div><h3>Installer</h3><p>Coda Music v3.1.0 Setup.exe</p></div>
           </a>
-          <a href="./Coda Music v3.0.0 Portable.zip" className="download-card">
+          <a href="./Coda Music v3.1.0 Portable.zip" className="download-card">
             <div className="download-card-icon"><Download size={24} /></div>
-            <div><h3>Portable</h3><p>Coda Music v3.0.0 Portable.zip</p></div>
+            <div><h3>Portable</h3><p>Coda Music v3.1.0 Portable.zip</p></div>
           </a>
         </div>
         <div className="smartscreen-notice">
@@ -204,9 +204,9 @@ function Footer() {
       <div className="footer-inner">
         <div className="footer-brand">CODA <b>MUSIC</b></div>
         <div className="footer-links">
-          <a href="https://github.com/coder-nishanth" target="_blank" rel="noreferrer">Developer</a>
-          <a href="https://github.com/coder-nishanth/coda-music" target="_blank" rel="noreferrer"><Github size={14} /> GitHub</a>
-          <a href="https://buymeacoffee.com/coder.nishanth" target="_blank" rel="noreferrer"><Coffee size={14} /> Support</a>
+          <a href="https://github.com/0xnish" target="_blank" rel="noreferrer">Developer</a>
+          <a href="https://github.com/0xnish/coda-music" target="_blank" rel="noreferrer"><Github size={14} /> GitHub</a>
+          <a href="https://buymeacoffee.com/0xnish" target="_blank" rel="noreferrer"><Coffee size={14} /> Support</a>
         </div>
         <div className="footer-bottom">
           <span>Made with Flutter & React</span>
