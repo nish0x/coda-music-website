@@ -178,11 +178,11 @@ function DownloadSection() {
         <h2>Get <span className="gradient-text">Coda Music</span></h2>
         <p>Free and open source. No ads, no tracking.</p>
         <div className="download-cards">
-          <a href="./Coda Music v3.2.0 Setup.exe" className="download-card">
+          <a href="https://github.com/0xnish/coda-music/releases/download/v3.2.0/Coda%20Music%20v3.2.0%20Setup.exe" className="download-card">
             <div className="download-card-icon"><ArrowRight size={24} /></div>
             <div><h3>Installer</h3><p>Coda Music v3.2.0 Setup.exe</p></div>
           </a>
-          <a href="./Coda Music v3.2.0 Portable.zip" className="download-card">
+          <a href="https://github.com/0xnish/coda-music/releases/download/v3.2.0/Coda%20Music%20v3.2.0%20Portable.zip" className="download-card">
             <div className="download-card-icon"><Download size={24} /></div>
             <div><h3>Portable</h3><p>Coda Music v3.2.0 Portable.zip</p></div>
           </a>
