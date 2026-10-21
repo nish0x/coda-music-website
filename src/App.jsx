@@ -54,13 +54,13 @@ function Navbar() {
           <a href="https://github.com/0xnish/coda-music" target="_blank" rel="noreferrer">
             <Github size={16} />
           </a>
-          <a href="https://buymeacoffee.com/0xnish" target="_blank" rel="noreferrer" className="header-cta">
+          <a href="https://buymeacoffee.com/nish0x" target="_blank" rel="noreferrer" className="header-cta">
             <Coffee size={14} />
             Support
           </a>
         </nav>
 
-        <a href="https://buymeacoffee.com/0xnish" target="_blank" rel="noreferrer" className="header-cta-mobile">
+        <a href="https://buymeacoffee.com/nish0x" target="_blank" rel="noreferrer" className="header-cta-mobile">
           Support
         </a>
       </div>
@@ -206,7 +206,7 @@ function Footer() {
         <div className="footer-links">
           <a href="https://github.com/0xnish" target="_blank" rel="noreferrer">Developer</a>
           <a href="https://github.com/0xnish/coda-music" target="_blank" rel="noreferrer"><Github size={14} /> GitHub</a>
-          <a href="https://buymeacoffee.com/0xnish" target="_blank" rel="noreferrer"><Coffee size={14} /> Support</a>
+          <a href="https://buymeacoffee.com/nish0x" target="_blank" rel="noreferrer"><Coffee size={14} /> Support</a>
         </div>
         <div className="footer-bottom">
           <span>Made with Flutter & React</span>
